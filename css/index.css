@@ -12,3 +12,75 @@ body {
   width: 50px;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hamburger {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: none;
+}
+
+.navbar {
+  margin-left: 10px;
+  background-color: gray;
+}
+
+main {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+/*
+Tablets, iPads(portrait)
+768px - 1024px
+*/
+
+@media (min-width:768px) and (max-width:1024px){
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .product {
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+}
+
+/*
+Large screen
+1025px - 
+*/
