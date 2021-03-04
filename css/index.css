@@ -81,6 +81,8 @@ Tablets, iPads(portrait)
     border-color: gray;
     text-align: center;
     border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   p {
